@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width , intial-scale=1.0">
+    <title>Sign up</title>
+    <link rel = "icon" href = "Images/lg.png" type = "image/x-icon" >
+    <link rel="stylesheet" href="CSS/signupn.css">
+  </head>
+
+  <body>
+    <div class="hero" >
+
+      <nav>
+        <img src="images/r.png" class="logo">
+      </nav>
+
+      <div class="txt">
+        <a>Already have an account?<button class="button1" onclick="location.href='Nominee login.html'">Login</button></a>
+      </div>
+
+      <hr>
+
+      <br><br><br>
+
+      <center>
+        <a class="txtmdl">Create a Free Onset Account </a>
+        <br>
+        <a class="supv"  >Voter ?<button class="button2" onclick="location.href='Signupv.html'">Sign up as a voter</button></a>
+      </center>
+
+      <form action="insertn.php" method="POST">
+        <div class="frm">
+          <label for="fname"><a class="frmd">First Name</a></label><br>
+          <input type="text" name="fname" id="fname" placeholder="Eg: Hemal" required>
+          <br>
+          <br>
+          <label for="lname"><a class="frmd">Last Name</a></label><br>
+          <input type="text" name="lname" id="lname" placeholder="Eg: Silva" required>
+          <br>
+          <br>
+          <label for="ncode"><a class="frmd">Nominee code</a></label><br>
+          <input type="text" name="ncode" id="ncode" placeholder="Eg: ID123" required>
+          <br>
+          <br>
+          <label for="eml"><a class="frmd">Email</a></label><br>
+          <input type="email" name="eml" id="eml" placeholder="Eg: hemals@gmail.com" required>
+          <br>
+          <br>
+          <label for="passwd"><a class="frmd">Password</a></label><br>
+          <input type="password"  name="passwd" id="passwd" placeholder="At least 6 characters" required>
+          <br>
+          <br>
+
+          <input type="checkbox" required> <p class="agr">By creating an account I will agree to ONSET <a href="#" class="terms">Terms & Privacy</a>.</p>
+          <button type="submit" class="registerbtn" value="submit" name="submit">Create Account</button>
+
+        </div>
+      </form>
+
+      <img src="images/undraw_voting_nvu7.png" class="un">
+
+      <hr class="hrr">
+
+      <p class="copyright">Copyright ©2021 All Rights Reserved | System Developed By Y1 S2 Assignment Group MLB_G01_2_11</p>
+      
+      <br>
+
+      
+
+    </div>
+  </body>
+</html>

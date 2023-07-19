@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "icon" href = "Images/lg.png" type = "image/x-icon" >
+    <link rel="stylesheet" href="Css/Header-footer.css">
+    <link rel="stylesheet" href="Css/News.css">
+    <title>News</title>
+    <script src="https://kit.fontawesome.com/412bbd0b8f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="hero" >
+
+      <nav>
+        <img src="images/r.png" class="logo">
+        <ul>
+          <li class="a"><a href="Home.hphp">Home</a></li>
+          <li class="a"><a href="Voting page.html">Vote</a></li>
+          <li class="a"><a href="Voter acc.html">Account</a></li>
+          <li class="a"><a href="contactus.html">Contacts Us</a></li>
+          <li class="a"><a href="About.html">About Us</a></li>
+        </ul>
+        
+        <div class="main">
+          <input class = "search-txt" type="text" name="box" placeholder="Type to search">
+          
+          <div class="btn">
+            <a href="#"><i class="fas fa-search"></i></a>
+          </div>
+        </div>
+      </nav>
+      
+      <hr>
+      <!-- content start -->
+      <div class="trending">
+        <h3 style="margin: 30px;">Trending</h3>
+        <ul style="margin: 30px;">
+      <li><a href="#"> Cinnamon Red General Manager Terrence Fernando receiving the award for Best Three Star Hotel</a></li><br>
+      <li><a href="#"> Aelian Gunawardene Won the 2021 Sri Lankan Entrepreneur of the Year Award</a></li><br>
+      
+      
+    </ul>
+      </div>
+    <!--image slider start-->
+    <h1 class="header">News</h1>
+    
+    <div class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+          <img src="Images/image.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="Images/image1.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="Images/image2.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="Images/image3.jpg" alt="">
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+    <!-- image slider end -->
+    <div class="news">
+      <h3>Cinnamon Red General Manager Terrence Fernando receiving the award for Best Three Star Hotel</h3>
+      <br>
+    <p class="news-para">Cinnamon Grand, Cinnamon Lakeside and Cinnamon Red took home top honours at the Sri Lanka Tourism Awards held on 6 December at Shangri-La Colombo. 
+      Premier five-star city resort Cinnamon Lakeside Colombo received the award for Best Five Star City Hotel; Asia’s first lean luxury property Cinnamon Red Colombo received the award for Best Three Star City Hotel; and Cinnamon Grand’s Nuga Gama, the Village in the City, received the award for Best Themed Tourist Cuisine Restaurant.
+      The highest recognition in the tourism, travel and hospitality industries, the Sri Lanka Tourism Awards honour the best performers under 11 award categories. Organisations and individuals are recognised and rewarded for their contribution towards the strengthening and empowerment of Sri Lanka’s tourism industry, thus promoting and enhancing the delivery of service standards. Award winners were chosen by a distinguished panel of industry experts.</p>
+      </div>
+      <!-- content end -->
+      <div class="footer">
+        <hr>
+      <br>
+      <br>
+
+      <div class="lg">
+        <img src="Images/lg.png" width="150px" height="300px">        
+      </div>
+
+      <div class="para">
+        <p>Onset Awards proudly announce that this is the only tele/film awarding ceremony in the region held within the 1st quarter immediately after the end of year under review. No doubt that both artists and television viewers will welcome this move to evaluate the TV program while they are still live in good memories of them, despite the challenges in evaluating and organizing the event in such a short span of time</p>
+      </div>
+
+      <div class="sub">
+        SUBSCRIBE TO OUR NEWS LETTER 
+      </div>
+      
+      <form method="post" id="form-subscribe" action="submit.php">
+        <input type="email" id="eml" placeholder="e-mail here"><br>
+        <input type="checkbox" id="chkbx">
+        <h1 id="nws">Daily Newsletter</h1>
+        <input type="submit" id="sbmt" value="SUBSCRIBE">
+      </form> 
+      
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      
+     
+    
+        <hr class="hrr">
+
+      <p class="copyright">Copyright ©2021 All Rights Reserved | System Developed By Y1 S2 Assignment Group MLB_G01_2_11</p>
+      
+      <br>
+    </div>
+    </div>      
+</body>
+</html>

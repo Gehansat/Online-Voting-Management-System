@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width , intial-scale=1.0">  
+    <title> Voter Account</title>
+    <link rel = "icon" href = "Images/lg.png" type = "image/x-icon" >
+    <link rel="stylesheet" href ="CSS/account.css">
+
+    <script src="https://kit.fontawesome.com/412bbd0b8f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- header of the web page!--> 
+    <div class="hero" >
+    <nav>
+        <img src="images/r.png" class="logo">
+        <ul>
+          <li class="a"><a href="Home.php">Home</a></li>
+          <li class="a"><a href="Voting page.html">Vote</a></li>
+          <li class="a"><a href="Voter acc.html">Account</a></li>
+          <li class="a"><a href="contactus.html">Contacts Us</a></li>
+          <li class="a"><a href="About.html">About Us</a></li>
+        </ul>
+        
+        <div class="main">
+          <input class = "search-txt" type="text" name="box" placeholder="Type to search">
+            
+          <div class="btn">
+            <a href="#"><i class="fas fa-search"></i></a>
+          </div>
+        </div>
+      </nav>
+      <hr>
+        <!--account coding-->
+    <div class="acc">
+       <h1>Profile Details</h1>
+       <form action = "Voter account.php" method="post" enctype="multipart/form-data">
+        <label for="fileField"><img src="Images/usericon.png" height="100px" width="100px"></label>
+
+        <input type="file" id="fileField" name="file" accept="image/*" hidden="true">
+
+        <input type = "file" name = "file " accept="image/*"><br/><br/>
+        
+       
+        <button type="submit" name="upload" class = "upl">Upload</button>   <br> </div>
+        
+        <br><br>
+        
+       <div class="update">
+        <h2 ><u>User Details</u></h2>
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname"  placeholder="Eg: Ann" class="frm" required>
+        <br>
+        <br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" name="lname"  placeholder="Eg: Taylor" class="frm" required>
+        <br>
+        <br>
+        <label for="uname">User Name</label><br>
+        <input type="text" name="uname"  placeholder="Eg: ann123" class="frm" required>
+        <br>
+        <br>
+        <label for="eml">Email</label><br>
+        <input type="email" name="eml"  placeholder="Eg: abs@abc.com" class="frm" required>
+        <br/><br/>
+        <button type="submit" name="update" class = "update1"  >update</button>
+       
+       <br/><br/><br/>
+       <h2 ><u>Privacy Details</u></h2>
+        <br/>
+           <button type="reset" value="reset" name="reset" class="update2">change my password</button>
+       
+        </div>
+
+
+       </form>
+       <img src="Images/profile.png" class="img">
+          
+       <!--footer file-->
+      <hr>
+      <br><br><br>
+       <div class="lg">
+        <img src="Images/lg.png" width="180px" height="360px">        
+      </div>
+
+      <div class="para">
+        <p>Onset Awards proudly announce that this is the only tele/film awarding ceremony in the region held within the 1st quarter immediately after the end of year under review. No doubt that both artists and television viewers will welcome this move to evaluate the TV program while they are still live in good memories of them, despite the challenges in evaluating and organizing the event in such a short span of time</p>
+      </div>
+
+      <div class="sub">
+        SUBSCRIBE TO OUR NEWS LETTER 
+      </div>
+      
+      <form method="post" id="form-subscribe" action="submit.php">
+        <input type="email" id="eml" placeholder="e-mail here"><br>
+        <input type="checkbox" id="chkbx">
+        <h1 id="nws">Daily Newsletter</h1>
+        <input type="submit" id="sbmt" value="SUBSCRIBE">
+      </form> 
+      
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      
+     
+
+        <hr class="hrr">
+
+      <p class="copyright">Copyright ©2021 All Rights Reserved | System Developed By Y1 S2 Assignment Group MLB_G01_2_11</p>
+      
+      <br>
+    </div>
+</body>
+    
+
+
+
+
+</html>
