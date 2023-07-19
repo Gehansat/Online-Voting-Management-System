@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.hero{
+  background: #1d2026;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding:10px 1%;
+}
+
+nav .menu-img{
+  width: 25px;
+  margin-right:20px;
+  cursor: pointer;
+}
+
+nav .logo{
+  width: 280px;
+  cursor: pointer;
+}
+
+.txt{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: -60px 150px 0px 0px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.button1 {
+  background-color: #1d2026; 
+  color: white; 
+  border: 2px solid #fecf3d;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 0px;
+  font-family: arial black;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 80px;
+  height: 35px;
+  text-align: center;
+}
+
+.button1:hover {
+  background-color: #fecf3d;
+  color: #1d2026;
+}
+
+.txtmdl {
+  font-family: poppins;
+  font-size: 30px;
+}
+
+.supv{
+  font-family: arial;
+  font-size: 20px;
+}
+
+.button2 {
+  background-color: #1d2026; 
+  color: white; 
+  border: 2px solid #fecf3d;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 0px;
+  font-family: arial black;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 180px;
+  height: 30px;
+  text-align: center;
+}
+
+.button2:hover {
+  background-color: #fecf3d;
+  color: #1d2026;
+}
+
+p.copyright {
+  color: #fff;
+  line-height: 40px;
+  font-size: 15px;
+  font-family: tahoma;
+  line-height: 1.2;
+  margin: 10px 1370px 0px 90px ;
+  padding: 10px;
+}
+
+.hrr{
+  margin-top: 60px;
+}
+
+/* Add padding to containers */
+.frm {
+  padding: 50px 0px 0px 200px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email], input[type=password] {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.frmd{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.agr{
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  margin: -20px 0px 0px 24px;
+}
+
+.terms{
+  color: #fecf3d;
+}
+
+.registerbtn {
+  background-color: #fecf3d;
+  color: #1d2026;
+  padding: 10px 5px;
+  margin: 35px 0px 0px 167px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+  font-family: Impact;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.un{
+  width: 40%;
+  margin: -3000px 0px 130px 1000px;
+}

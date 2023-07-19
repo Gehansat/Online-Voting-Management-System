@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 1%;
+}
+
+nav .menu-img {
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .logo {
+    width: 280px;
+    cursor: pointer;
+}
+
+.title {
+    position: absolute;
+    left: 20%;
+    font-family: poppins;
+    font-size: 30px;
+}
+
+p.copyright {
+    color: #fff;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: tahoma;
+    line-height: 1.2;
+    margin: 10px 1135px 0px 8cm ;
+    padding: 10px;
+  }
+
+.bottom-hr {
+    margin-top: 0px;
+}
+
+.logout {
+    position: absolute;
+    right: 5%;
+    background-color: #fecf3d;
+    padding: 12px 4px;
+    margin: 10px 0px 0px 140px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+.logout a {
+    color: #1d2026;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Impact;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:hover {
+    background-color: rgb(136, 136, 136);
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 97%;
+    margin-left: 20%;
+    margin-top: 5%;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    position: relative;
+    top: 10px;
+    display: block;
+    width: 20%;
+}
+
+.close {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+td input {
+    background-color: #fecf3d;
+    color: #1d2026;
+    padding: 5px 5px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+    font-family: Impact;
+    border-radius: 20px;
+    font-size: 14px;
+}
+td input:hover {
+    opacity: 1;
+}

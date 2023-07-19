@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 1%;
+}
+
+nav .menu-img {
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .logo {
+    width: 280px;
+    cursor: pointer;
+}
+.title {
+    position: absolute;
+    left: 20%;
+    font-family: poppins;
+    font-size: 30px;
+}
+
+p.copyright {
+    color: #fff;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: tahoma;
+    line-height: 1.2;
+    padding: 10px;
+}
+
+.bottom-hr {
+    margin-top: 60px;
+}
+
+/* Add padding to containers */
+.form {
+    padding: 50px 0px 0px 200px;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.frmd {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.loginbtn {
+    background-color: #fecf3d;
+    color: #1d2026;
+    padding: 10px 5px;
+    margin: 20px 0px 0px 140px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+    font-family: Impact;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.loginbtn:hover {
+    opacity: 1;
+}
+.alert {
+    width: 30%;
+    display: none;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+#er {
+    display: block;
+
+}
+.devlogin {
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    width: 400PX;
+}
+.back {
+    position: absolute;
+    right: 5%;
+    top: 78%;
+    background-color: #fecf3d;
+    padding: 10px 3px;
+    margin: 20px 0px 0px 140px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+.back a {
+    color: #1d2026;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Impact;
+
+}
+

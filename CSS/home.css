@@ -1,0 +1,306 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.hero{
+  background: #1d2026;
+  min-height: 200vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding:10px 1%;
+}
+
+nav .menu-img{
+  width: 25px;
+  margin-right:20px;
+  cursor: pointer;
+}
+
+nav .logo{
+  width: 280px;
+  cursor: pointer;
+}
+nav ul{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px ;
+}
+nav ul li a{
+  text-decoration: none;
+  color:#fff;
+  font-family: Verdana;  
+  font-size: 20px;
+}
+
+li a:hover {
+ color: #fecf3d;
+}
+
+.main{
+  position: absolute;
+  top: 40px;
+  left: 900px;
+  transform: translate(-50%,-50%);
+}
+
+input{
+  border: 3px solid;
+  height: 30px;
+  width: 500px;
+  border-radius: 50px;
+  padding:0px 15px;
+}
+
+.btn{
+  color: #1d2026;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fecf3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px ;  
+}
+
+/* Slideshow container */
+.slideshow-container {
+  padding-left: 0cm;
+  overflow: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -550px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text 
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  margin: -20px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}*/
+
+/* Number text (1/3 etc) 
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}*/
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-top: 0px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.txt{
+  font-family: verdana;
+  margin: 60px 0px 60px 0px;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.button1 {
+  background-color: #1d2026; 
+  color: white; 
+  border: 2px solid #fecf3d;
+  border-radius: 40px;
+  font-size: 30px;
+  padding: 15px;
+  font-family: Impact;
+  margin-left: 28px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.button1:hover {
+  background-color: #fecf3d;
+  color: #1d2026;
+}
+
+.lg{
+  margin-left:8cm;
+}
+
+.para{
+  text-align: justify;
+  text-justify: inter-word;
+  margin : -295px 970px 0px 510px;
+  font-size: 20px;
+  font-family: tahoma;
+  color: #cfd0d2;
+}
+
+.sub{
+  font-family: impact;
+  font-size: 25px;
+  margin-left: 1250px;
+  margin-top: -250px;
+}
+
+#eml{
+  font-size: 15px;
+  border-radius: 0;
+  margin-left: 1250px;
+  margin-top: 10px;
+  width: 288px;
+}
+
+#chkbx{
+  margin-left: 1010px;
+  margin-top: 10px;
+  height: 15px;
+}
+
+#nws{
+  margin-left: 1280px;
+  margin-top: -20px;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+}
+
+#sbmt{
+  font-size: 20px;
+  border-radius: 0;
+  margin-left: 1250px;
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  padding: 0;
+  font-family: impact;
+  border-radius: 30px;
+  background-color:  #fecf3d;
+  color: #1d2026;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin: 230px 10px 0px 325px;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  margin-right: 10px;
+}
+
+.fa-instagram {
+  background: #E1306C;
+  color: white;
+}
+
+
+p.copyright {
+  color: #fff;
+  line-height: 40px;
+  font-size: 15px;
+  font-family: tahoma;
+  line-height: 1.2;
+  margin: 10px 1135px 0px 325px ;
+  padding: 10px;
+}
+
+.wrapper{
+  margin:-420px 0px 0px 850px;
+}
+
+.hrr{
+  margin-top: 60px;
+}
+
+

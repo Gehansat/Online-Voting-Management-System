@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.hero{
+  background: #1d2026;
+  min-height: 90vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding:10px 1%;
+}
+
+nav .menu-img{
+  width: 25px;
+  margin-right:20px;
+  cursor: pointer;
+}
+
+nav .logo{
+  width: 280px;
+  cursor: pointer;
+}
+nav ul{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px ;
+}
+nav ul li a{
+  text-decoration: none;
+  color:#fff;
+  font-family: Verdana;  
+  font-size: 20px;
+}
+
+li a:hover {
+ color: #fecf3d;
+}
+
+.main{
+  position: absolute;
+  top: 40px;
+  left: 900px;
+  transform: translate(-50%,-50%);
+  
+}
+.search-txt{
+	width:400px;
+}	
+
+input{
+  border: 3px solid;
+  height: 30px;
+  width: 900px;
+  border-radius: 40px;
+  padding:0px 15px;
+  position: center;
+}
+
+.btn{
+  color: #1d2026;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fecf3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px ;  
+}
+
+.lg{
+  margin-left:8cm;
+}
+
+.para{
+  text-align: justify;
+  text-justify: inter-word;
+  margin : -295px 950px 0px 500px;
+  font-size: 20px;
+  font-family: tahoma;
+  color: #fff;
+}
+.sub{
+  font-family: impact;
+  font-size: 25px;
+  margin-left: 1250px;
+  margin-top: -220px;
+}
+
+#eml{
+  font-size: 15px;
+  border-radius: 0;
+  margin-left: 1250px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+#chkbx{
+  margin-left: 810px;
+  margin-top: 10px;
+  height: 15px;
+}
+
+#nws{
+  margin-left: 1280px;
+  margin-top: -20px;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+}
+
+#sbmt{
+  font-size: 20px;
+  border-radius: 0;
+  margin-left: 1250px;
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  padding: 0;
+  font-family: impact;
+  border-radius: 30px;
+  background-color:  #fecf3d;
+  color: #1d2026;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin: 260px 10px 0px 8.6cm;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  margin-right: 10px;
+}
+
+.fa-instagram {
+  background: #E1306C;
+  color: white;
+}
+
+
+p.copyright {
+  color: #fff;
+  line-height: 40px;
+  font-size: 15px;
+  font-family: tahoma;
+  line-height: 1.2;
+  margin: 10px 1150px 0px 8cm ;
+  padding: 10px;
+}
+
+.wrapper{
+  margin:-420px 0px 0px 850px;
+}
+
+.hrr{
+  margin-top: 160px;
+}
+
+.title{
+  font-size: 40px;
+  font-weight: 500;
+   margin-left:200px;
+   margin-top: 20px;
+ 
+}
+.cinf{
+  font-size: 40px;
+  margin-left:1300px;
+  margin-top: 10px;  
+}
+  
+.box
+ {
+	 position: relative;
+	 padding:20px 0;
+	 display:flex;
+	 top:-700px;
+	 margin-left:1250px;
+   font-size: 16px;
+	 
+ }
+ .vl {
+  border-left: 2px solid White;
+  height: 1038px;
+  position: absolute;
+  left: 50%;
+  margin-left: 200px;
+  top: 100;
+
+}
+ 
+
+.frm {
+  padding: 30px 0px 0px 200px;
+  margin-bottom: -200px;
+}
+
+/* Full-width input fields */
+#frmm {
+  width: 40%;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 0px;
+}
+
+#frmm{
+  background-color: #ddd;
+  outline: none;
+}
+#frmmd {
+  width: 39%;
+  height: 200px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 0px;
+}
+
+#frmmd{
+  background-color: #ddd;
+  outline: none;
+}
+.frmd{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.registerbtn {
+  background-color: #fecf3d;
+  color: #1d2026;
+  padding: 10px 5px;
+  margin: 0px 0px 0px 0px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+  font-family: Impact;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
